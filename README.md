@@ -116,14 +116,6 @@ Alternativ kann das Notebook direkt in Google Colab geöffnet werden:
 
 [![Setup-Test in Colab öffnen](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Y-Robin/DeepLearningKurs/blob/main/notebooks/00_setup_test.ipynb)
 
-
-## Neue Notebooks
-
-Für Tag 1 stehen zusätzlich zwei niedrigschwellige Kursnotebooks zur Verfügung:
-
-- `notebooks/01_tag_1_machine_learning_playground.ipynb`: Playground zu Regression, Klassifikation, Clustering, Metriken, Train/Valid/Test-Splits und Bias-Varianz-Tradeoff.
-- `notebooks/02_tag_1_reinforcement_learning_mini_pong.ipynb`: kleines Reinforcement-Learning-Beispiel mit eigener Mini-Pong-Umgebung und Q-Learning ohne Gym/Atari-Abhängigkeiten.
-
 ## Repository-Struktur
 
 ```text
@@ -132,9 +124,7 @@ Für Tag 1 stehen zusätzlich zwei niedrigschwellige Kursnotebooks zur Verfügun
 ├── requirements.txt
 ├── environment.yml
 ├── notebooks/
-│   ├── 00_setup_test.ipynb
-│   ├── 01_tag_1_machine_learning_playground.ipynb
-│   └── 02_tag_1_reinforcement_learning_mini_pong.ipynb
+│   └── 00_setup_test.ipynb
 └── LICENSE
 ```
 

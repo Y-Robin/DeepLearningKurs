@@ -18,9 +18,3 @@ huggingface-hub>=0.23,<1.0
 jupyter>=1.0,<2.0
 notebook>=7.2,<8.0
 ipykernel>=6.29,<7.0
-
-# Interactive notebook widgets
-ipywidgets>=8.1,<9.0
-
-# Keep notebook outputs and execution metadata out of git diffs
-nbstripout>=0.7,<1.0
