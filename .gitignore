@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DeepLearningKurs local artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+data/raw/
+data/processed/
+datasets/
+models/
+checkpoints/
+runs/
+logs/
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.onnx
+logs/fit/
+*.nbconvert.ipynb
