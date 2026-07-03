@@ -117,12 +117,17 @@ Alternativ kann das Notebook direkt in Google Colab geöffnet werden:
 [![Setup-Test in Colab öffnen](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Y-Robin/DeepLearningKurs/blob/main/notebooks/00_setup_test.ipynb)
 
 
-## Neue Notebooks
+## Tag-1-Notebooks
 
-Für Tag 1 stehen zusätzlich zwei niedrigschwellige Kursnotebooks zur Verfügung:
+Die praktischen Tag-1-Inhalte liegen in `notebooks/Day_1/` als kleine, einzeln ausführbare Einheiten. Die Reihenfolge folgt den Vortragsfolien:
 
-- `notebooks/01_tag_1_machine_learning_playground.ipynb`: Playground zu Regression, Klassifikation, Clustering, Metriken, Train/Valid/Test-Splits und Bias-Varianz-Tradeoff.
-- `notebooks/02_tag_1_reinforcement_learning_mini_pong.ipynb`: kleines Reinforcement-Learning-Beispiel mit eigener Mini-Pong-Umgebung und Q-Learning ohne Gym/Atari-Abhängigkeiten.
+- `notebooks/Day_1/01_tag_1_daten_samples_ausreisser_korrelation.ipynb`: Eingangsdaten, Sample-Formen, Ausreißer, Korrelation und Klassifikationsdaten untersuchen.
+- `notebooks/Day_1/02_tag_1_regression_mietpreise.ipynb`: interaktive Regression mit einem zusammenhängenden Mietpreis-Datensatz.
+- `notebooks/Day_1/03_tag_1_klassifikation_metriken.ipynb`: Klassifikation mit 1D-Verteilungen, ROC, Confusion Matrix, Precision und Recall.
+- `notebooks/Day_1/04_tag_1_train_valid_test_kreuzvalidierung.ipynb`: 70/10/20-Split, Kreuzvalidierung und Polynomgrad-Tuning.
+- `notebooks/Day_1/05_tag_1_training_loss_regularisierung.ipynb`: Training, Loss, Bias-Variance und Regularisierung.
+- `notebooks/Day_1/06_tag_1_unueberwachtes_lernen_clustering.ipynb`: Unüberwachtes Lernen und Clustering.
+- `notebooks/Day_1/07_tag_1_reinforcement_learning_mini_pong.ipynb`: Reinforcement Learning mit Mini-Pong.
 
 ## Repository-Struktur
 
@@ -133,8 +138,15 @@ Für Tag 1 stehen zusätzlich zwei niedrigschwellige Kursnotebooks zur Verfügun
 ├── environment.yml
 ├── notebooks/
 │   ├── 00_setup_test.ipynb
-│   ├── 01_tag_1_machine_learning_playground.ipynb
-│   └── 02_tag_1_reinforcement_learning_mini_pong.ipynb
+│   └── Day_1/
+│       ├── README.md
+│       ├── 01_tag_1_daten_samples_ausreisser_korrelation.ipynb
+│       ├── 02_tag_1_regression_mietpreise.ipynb
+│       ├── 03_tag_1_klassifikation_metriken.ipynb
+│       ├── 04_tag_1_train_valid_test_kreuzvalidierung.ipynb
+│       ├── 05_tag_1_training_loss_regularisierung.ipynb
+│       ├── 06_tag_1_unueberwachtes_lernen_clustering.ipynb
+│       └── 07_tag_1_reinforcement_learning_mini_pong.ipynb
 └── LICENSE
 ```
 
