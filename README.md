@@ -128,6 +128,8 @@ Die praktischen Tag-1-Inhalte liegen in `notebooks/Day_1/` als kleine, einzeln a
 - `notebooks/Day_1/05_tag_1_training_loss_regularisierung.ipynb`: Training, Loss, Bias-Variance und Regularisierung.
 - `notebooks/Day_1/06_tag_1_unueberwachtes_lernen_clustering.ipynb`: Unüberwachtes Lernen und Clustering.
 - `notebooks/Day_1/07_tag_1_reinforcement_learning_mini_pong.ipynb`: Reinforcement Learning mit Mini-Pong.
+- `notebooks/Day_1/08_tag_1_uebung_regression_supervised.ipynb`: längere betreute Regressionsübung mit Rohdatenanalyse, Ausreißern, Korrelationen, linearer Regression, Regularisierung, Validierung und Regressionsmetriken.
+- `notebooks/Day_1/09_tag_1_uebung_klassifikation_supervised.ipynb`: längere betreute Klassifikationsübung mit Rohdatenanalyse, Ausreißern, Korrelationen, logistischer Regression, Regularisierung, Validierung, Confusion Matrix und Klassifikationsmetriken.
 
 ## Tag-2/3-Notebooks
 
@@ -155,7 +157,9 @@ Die praktischen Inhalte zum zweiten Kursblock liegen in `notebooks/Day_2_3/`. Di
 │   │   ├── 04_tag_1_train_valid_test_kreuzvalidierung.ipynb
 │   │   ├── 05_tag_1_training_loss_regularisierung.ipynb
 │   │   ├── 06_tag_1_unueberwachtes_lernen_clustering.ipynb
-│   │   └── 07_tag_1_reinforcement_learning_mini_pong.ipynb
+│   │   ├── 07_tag_1_reinforcement_learning_mini_pong.ipynb
+│   │   ├── 08_tag_1_uebung_regression_supervised.ipynb
+│   │   └── 09_tag_1_uebung_klassifikation_supervised.ipynb
 │   └── Day_2_3/
 │       ├── README.md
 │       ├── 01_tag_2_3_neuron_scratch_klassifikation.ipynb

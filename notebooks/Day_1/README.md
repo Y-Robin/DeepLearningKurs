@@ -11,3 +11,5 @@ Die Tag-1-Inhalte sind in kleine, einzeln ausführbare Einheiten aufgeteilt. Die
 | 05 | `05_tag_1_training_loss_regularisierung.ipynb` | Training, Loss, Bias-Variance, Regularisierung |
 | 06 | `06_tag_1_unueberwachtes_lernen_clustering.ipynb` | Unüberwachtes Lernen, Clustering |
 | 07 | `07_tag_1_reinforcement_learning_mini_pong.ipynb` | Reinforcement Learning, Agent, Environment, Reward |
+| 08 | `08_tag_1_uebung_regression_supervised.ipynb` | Betreute Regressionsübung, Rohdatenanalyse, Ausreißer, Korrelation, Regularisierung, Validierung |
+| 09 | `09_tag_1_uebung_klassifikation_supervised.ipynb` | Betreute Klassifikationsübung, Rohdatenanalyse, Confusion Matrix, Metriken, Regularisierung, Validierung |
