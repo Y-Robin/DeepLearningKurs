@@ -129,6 +129,15 @@ Die praktischen Tag-1-Inhalte liegen in `notebooks/Day_1/` als kleine, einzeln a
 - `notebooks/Day_1/06_tag_1_unueberwachtes_lernen_clustering.ipynb`: Unüberwachtes Lernen und Clustering.
 - `notebooks/Day_1/07_tag_1_reinforcement_learning_mini_pong.ipynb`: Reinforcement Learning mit Mini-Pong.
 
+## Tag-2/3-Notebooks
+
+Die praktischen Inhalte zum zweiten Kursblock liegen in `notebooks/Day_2_3/`. Die PDF ist zwar als Day 3 benannt, die Beispiele beziehen sich hier auf den Day-2-Block vom Neuron bis TensorFlow/Keras:
+
+- `notebooks/Day_2_3/01_tag_2_3_neuron_scratch_klassifikation.ipynb`: ein einzelnes Neuron ohne Deep-Learning-Bibliothek bauen, manuell per Slider tunen und trainieren.
+- `notebooks/Day_2_3/02_tag_2_3_gradient_descent_visualisierung.ipynb`: Gradient Descent und Lernrate interaktiv visualisieren.
+- `notebooks/Day_2_3/03_tag_2_3_lokale_minima_lernrate.ipynb`: lokale Minima und Lernrate in einer nichtkonvexen Loss-Landschaft.
+- `notebooks/Day_2_3/04_tag_2_3_keras_einstieg_training.ipynb` bis `12_tag_2_3_batchsize_epochen.ipynb`: kompakte TensorFlow/Keras-Beispiele zu Einstieg, MLP, Aktivierungen, Spezialschichten, Skip Connections, Initialisierung, Loss/Regularisierung, Optimierung, Lernrate, Early Stopping, Batch Size und Epochen.
+
 ## Repository-Struktur
 
 ```text
@@ -138,15 +147,29 @@ Die praktischen Tag-1-Inhalte liegen in `notebooks/Day_1/` als kleine, einzeln a
 ├── environment.yml
 ├── notebooks/
 │   ├── 00_setup_test.ipynb
-│   └── Day_1/
+│   ├── Day_1/
+│   │   ├── README.md
+│   │   ├── 01_tag_1_daten_samples_ausreisser_korrelation.ipynb
+│   │   ├── 02_tag_1_regression_mietpreise.ipynb
+│   │   ├── 03_tag_1_klassifikation_metriken.ipynb
+│   │   ├── 04_tag_1_train_valid_test_kreuzvalidierung.ipynb
+│   │   ├── 05_tag_1_training_loss_regularisierung.ipynb
+│   │   ├── 06_tag_1_unueberwachtes_lernen_clustering.ipynb
+│   │   └── 07_tag_1_reinforcement_learning_mini_pong.ipynb
+│   └── Day_2_3/
 │       ├── README.md
-│       ├── 01_tag_1_daten_samples_ausreisser_korrelation.ipynb
-│       ├── 02_tag_1_regression_mietpreise.ipynb
-│       ├── 03_tag_1_klassifikation_metriken.ipynb
-│       ├── 04_tag_1_train_valid_test_kreuzvalidierung.ipynb
-│       ├── 05_tag_1_training_loss_regularisierung.ipynb
-│       ├── 06_tag_1_unueberwachtes_lernen_clustering.ipynb
-│       └── 07_tag_1_reinforcement_learning_mini_pong.ipynb
+│       ├── 01_tag_2_3_neuron_scratch_klassifikation.ipynb
+│       ├── 02_tag_2_3_gradient_descent_visualisierung.ipynb
+│       ├── 03_tag_2_3_lokale_minima_lernrate.ipynb
+│       ├── 04_tag_2_3_keras_einstieg_training.ipynb
+│       ├── 05_tag_2_3_mlp_dense_hyperparameter.ipynb
+│       ├── 06_tag_2_3_aktivierungsfunktionen.ipynb
+│       ├── 07_tag_2_3_batchnorm_dropout.ipynb
+│       ├── 08_tag_2_3_skip_connections_functional_api.ipynb
+│       ├── 09_tag_2_3_initialisierungen.ipynb
+│       ├── 10_tag_2_3_loss_regularisierung.ipynb
+│       ├── 11_tag_2_3_optimierung_lr_scheduler_early_stopping.ipynb
+│       └── 12_tag_2_3_batchsize_epochen.ipynb
 └── LICENSE
 ```
 
