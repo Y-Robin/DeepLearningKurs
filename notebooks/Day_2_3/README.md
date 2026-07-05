@@ -16,3 +16,9 @@ Die PDF ist als `Day 3` benannt, diese Beispiele sind aber für den zweiten Kurs
 | 10 | `10_tag_2_3_loss_regularisierung.ipynb` | Loss in `compile`, Loss-Optionen und L1/L2-Regularisierung |
 | 11 | `11_tag_2_3_optimierung_lr_scheduler_early_stopping.ipynb` | SGD, Momentum, RMSprop, Adam, Lernratenplan, Warmup und Early Stopping |
 | 12 | `12_tag_2_3_batchsize_epochen.ipynb` | Batch Size, Epochen und Overfitting im Trainingsverlauf |
+| 13 | `13_tag_2_3_modelle_speichern_laden.ipynb` | Finale Modelle, bestes Modell per Checkpoint speichern, laden und prüfen |
+| 14 | `14_tag_2_3_tensorflow_grundlagen_cpu_gpu.ipynb` | TensorFlow als Rechenbibliothek, Tensoren, Autodiff, `tf.function` und CPU/GPU-Vergleich in Colab |
+| 15 | `15_tag_2_3_custom_training_loop_gradient_tape.ipynb` | Kompletter Custom Training Loop mit `tf.GradientTape`, Metriken und Gradienteninspektion |
+| 16 | `16_tag_2_3_eigene_metriken_aktivierungen_losses.ipynb` | Eigene Aktivierungsfunktion, eigene Loss-Funktion, eigene Keras-Metrik und Serialisierung |
+| 17 | `17_tag_2_3_tabular_pipeline_preprocessing_tfrecords.ipynb` | Vollständige Tabular-Pipeline mit Imputation, Normalisierung, Encoding und TFRecords |
+| 18 | `18_tag_2_3_dateien_streamen_tfdata.ipynb` | Einzelne Dateien mit `tf.data` streamen, statt alles direkt in den RAM zu laden |
