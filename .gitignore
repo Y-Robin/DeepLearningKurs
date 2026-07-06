@@ -242,9 +242,9 @@ logs/fit/
 *.nbconvert.ipynb
 
 # Local notebook model artifacts
-notebooks/Day_2_3/saved_models/
-notebooks/Day_2_3/saved_models/**
+notebooks/Day_3_5/saved_models/
+notebooks/Day_3_5/saved_models/**
 
 # Local notebook generated data artifacts
-notebooks/Day_2_3/generated_data/
-notebooks/Day_2_3/generated_data/**
+notebooks/Day_3_5/generated_data/
+notebooks/Day_3_5/generated_data/**
