@@ -22,3 +22,7 @@ Die PDF ist als `Day 3` benannt, diese Beispiele sind aber für den zweiten Kurs
 | 16 | `16_tag_2_3_eigene_metriken_aktivierungen_losses.ipynb` | Eigene Aktivierungsfunktion, eigene Loss-Funktion, eigene Keras-Metrik und Serialisierung |
 | 17 | `17_tag_2_3_tabular_pipeline_preprocessing_tfrecords.ipynb` | Vollständige Tabular-Pipeline mit Imputation, Normalisierung, Encoding und TFRecords |
 | 18 | `18_tag_2_3_dateien_streamen_tfdata.ipynb` | Einzelne Dateien mit `tf.data` streamen, statt alles direkt in den RAM zu laden |
+| 19 | `Übungen/19_tag_2_3_uebung_tensorflow_basics_ohne_training.ipynb` | TensorFlow-Basics, Tensorformen, Forward Pass, Loss und Gradienten ohne `model.fit` |
+| 20 | `Übungen/20_tag_2_3_uebung_daten_preprocessing_dos_donts.ipynb` | Titanic-Datensatz verstehen, Missing Values, Korrelationen, Kategorien, Keras-Preprocessing, Leakage und gespeicherte Pipeline |
+| 21 | `Übungen/21_tag_2_3_uebung_fashion_mnist_modellwahl.ipynb` | Datensatz untersuchen, Baseline bauen, mehrere Keras-Modelle vergleichen und ein finales Modell auswählen |
+| 22 | `Übungen/22_tag_2_3_uebung_online_titanic_custom_keras.ipynb` | Freies Online-Dataset im Kaggle-Einsteigerstil, Tabular-Preprocessing und eigene Keras-Bausteine |
