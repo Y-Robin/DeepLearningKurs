@@ -195,6 +195,7 @@ Der nächste Computer-Vision-Block führt anhand eines absichtlich kleinen Ein-O
 
 - `notebooks/Day_9/00_tag_9_datensatz_vorbereiten.ipynb`: lädt den kleinen, realen Penn-Fudan-Pedestrian-Datensatz (rund 51 MB) herunter, leitet Bounding Boxes aus den Originalmasken ab und erzeugt einen reproduzierbaren Ein-Person-Split.
 - `notebooks/Day_9/01_tag_9_objekterkennung_einfache_anker_nms.ipynb`: trainiert einen transparenten 4×4-Anker-Detektionskopf auf den echten Personenfotos mit einem vortrainierten ResNet-18-Backbone, Augmentation, Regularisierung, Fine-Tuning und Early Stopping; visualisiert Input/Label, einzelne Anker-Scores und Boxen, Loss, Kandidaten und NMS.
+- `notebooks/Day_9/Übungen/01_tag_9_uebung_eigene_objekterkennung.ipynb`: Praxisaufgabe für einen eigenen Ein-Objekt-Datensatz aus Kamera- oder generierten Bildern. Sie führt von Bounding-Box-Annotationen und einer Label-Prüfung über Transfer Learning bis zur IoU-basierten Bewertung auf separat gehaltenen, ungesehenen Testbildern.
 
 Für PyTorch wird nach der Basisinstallation **genau eine** der beiden Varianten installiert:
 
