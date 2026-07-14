@@ -256,3 +256,7 @@ notebooks/Day_6_8/saved_models/
 notebooks/Day_6_8/saved_models/**
 notebooks/Day_9/datasets/
 notebooks/Day_9/datasets/**
+notebooks/Day_10/generated_images/
+notebooks/Day_10/generated_images/**
+notebooks/Day_10/saved_models/
+notebooks/Day_10/saved_models/**

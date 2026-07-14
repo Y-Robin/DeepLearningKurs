@@ -20,6 +20,15 @@ transformers==4.46.3
 datasets==3.1.0
 huggingface-hub==0.26.2
 
+# Local image generation (Day 10)
+diffusers==0.31.0
+accelerate==1.1.1
+safetensors==0.4.5
+
+# OpenAI API example for image generation (Day 10)
+openai==1.109.1
+python-dotenv==1.1.1
+
 # Notebook environment
 jupyter==1.1.1
 notebook==7.2.2

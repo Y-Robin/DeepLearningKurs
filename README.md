@@ -197,6 +197,17 @@ Der nächste Computer-Vision-Block führt anhand eines absichtlich kleinen Ein-O
 - `notebooks/Day_9/01_tag_9_objekterkennung_einfache_anker_nms.ipynb`: trainiert einen transparenten 4×4-Anker-Detektionskopf auf den echten Personenfotos mit einem vortrainierten ResNet-18-Backbone, Augmentation, Regularisierung, Fine-Tuning und Early Stopping; visualisiert Input/Label, einzelne Anker-Scores und Boxen, Loss, Kandidaten und NMS.
 - `notebooks/Day_9/Übungen/01_tag_9_uebung_eigene_objekterkennung.ipynb`: Praxisaufgabe für einen eigenen Ein-Objekt-Datensatz aus Kamera- oder generierten Bildern. Sie führt von Bounding-Box-Annotationen und einer Label-Prüfung über Transfer Learning bis zur IoU-basierten Bewertung auf separat gehaltenen, ungesehenen Testbildern.
 
+## Tag-10-Notebooks
+
+Tag 10 führt in lokale Bildgenerierung ein. Der Block trennt bewusst das kleine, selbst trainierte GAN-Beispiel von der praktischen Nutzung eines vortrainierten Diffusionsmodells auf Hugging Face:
+
+- `notebooks/Day_10/01_tag_10_gan_fashion_mnist.ipynb`: trainiert ein kompaktes DCGAN auf Fashion-MNIST. Generator und Diskriminator machen das Gegenspiel, die erzeugten Bilder werden während des Trainings sichtbar.
+- `notebooks/Day_10/02_tag_10_diffusion_unet_embeddings_lokal.ipynb`: erklärt den Diffusionsprozess, die U-Net-Rolle und Text-Embeddings und erzeugt anschließend lokal ein Bild mit Stable Diffusion 1.5. Das Modell wird einmalig in einen lokalen Ordner geladen und kann danach offline verwendet werden.
+- `notebooks/Day_10/03_tag_10_openai_api_bildgenerierung.ipynb`: erzeugt ein Bild über die OpenAI Images API. Der API-Schlüssel bleibt außerhalb des Notebooks in der lokalen Datei `.env` im Projektwurzelordner.
+- `notebooks/Day_10/Übungen/01_tag_10_uebung_prompt_experiment.ipynb`: strukturiertes Prompt-Experiment mit kontrollierten Variationen, lokaler oder API-basierter Bilderzeugung und nachvollziehbarer Qualitätsbewertung.
+
+Eine RTX 3080 mit 10 GB VRAM reicht für die Beispiele: Das GAN ist klein; Stable Diffusion 1.5 läuft mit `float16`, Batch-Größe 1 und 512×512 Pixeln. Für deutlich größere Bilder oder das vollständige Fine-Tuning eines Diffusionsmodells reicht der Speicher in der Regel nicht aus; dafür sind LoRA-Fine-Tuning, kleinere Auflösungen oder CPU-Offload die passenden nächsten Schritte.
+
 Für PyTorch wird nach der Basisinstallation **genau eine** der beiden Varianten installiert:
 
 ```bash
