@@ -248,3 +248,11 @@ notebooks/Day_3_5/saved_models/**
 # Local notebook generated data artifacts
 notebooks/Day_3_5/generated_data/
 notebooks/Day_3_5/generated_data/**
+notebooks/Day_6_8/generated_images/
+notebooks/Day_6_8/generated_images/**
+notebooks/Day_6_8/datasets/
+notebooks/Day_6_8/datasets/**
+notebooks/Day_6_8/saved_models/
+notebooks/Day_6_8/saved_models/**
+notebooks/Day_9/datasets/
+notebooks/Day_9/datasets/**
